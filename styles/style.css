@@ -132,6 +132,11 @@ video {
   margin-bottom: 30px;
 }
 
+iframe {
+  width: 560px;
+  height: 315px;
+}
+
 .thumbnail {
   width: 100%;
   height: 170px;
@@ -172,9 +177,4 @@ span {
   text-decoration: none;
   color: rgb(96, 96, 96);
   font-size: 12px;
-}
-
-iframe {
-  width: 560px;
-  height: 315px;
 }

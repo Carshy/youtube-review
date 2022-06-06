@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +20,7 @@ body {
 
 .main-section {
   display: flex;
-  height: calc(100vh -70px);
+  height: calc(100vh - 70px);
   background-color: #f9f9f9;
 }
 
@@ -171,4 +172,9 @@ span {
   text-decoration: none;
   color: rgb(96, 96, 96);
   font-size: 12px;
+}
+
+iframe {
+  width: 560px;
+  height: 315px;
 }

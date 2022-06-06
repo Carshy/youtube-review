@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You Tube Video Page</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class="header-section">
+        <!--navbar-->
+        <div class="logo left">
+            <i id="menu" class="material-icons">menu</i>
+            <img src="images/youtube.png" alt="logo">
+        </div>
+
+        <div class="search center">
+            <form action="#">
+                <input type="text" placeholder="Search">
+                <button type="button"><i class="material-icons">search</i></button>
+            </form>
+            <i class="material-icons mic">mic</i>
+        </div>
+
+        <div class="icons-right">
+            <i class="material-icons">videocam</i>
+            <i class="material-icons">apps</i>
+            <i class="material-icons">notifications</i>
+            <i class="material-icons display-this">account_circle</i>
+        </div>
+    </header>
+    <main class="main-section">
+        <!--Video section and the sidebar-->
+        <div class="sidebar">
+            <div class="nav">
+                <a class="nav-link active">
+                    <i class="material-icons">home</i>
+                    <span>Home</span>
+                </a>
+                <a class="nav-link active">
+                    <i class="material-icons">explore</i>
+                    <span>Explore</span>
+                </a>
+                <a class="nav-link active">
+                    <i class="material-icons">local_fire_department</i>
+                    <span>Shorts</span>
+                </a>
+                <a class="nav-link active">
+                    <i class="material-icons">subscriptions</i>
+                    <span>Subscriptions</span>
+                </a>
+            
+                <hr>
+                <a class="nav-link active">
+                    <i class="material-icons">library_add_check</i>
+                    <span>Library</span>
+                </a>
+                <a class="nav-link active">
+                    <i class="material-icons">history</i>
+                    <span>History</span>
+                </a>
+                <a class="nav-link active">
+                    <i class="material-icons">play_arrow</i>
+                    <span>Your Videos</span>
+                </a>
+                <a class="nav-link active">
+                    <i class="material-icons">watch_later</i>
+                    <span>Watch Later</span>
+                </a>
+                <a class="nav-link active">
+                    <i class="material-icons">thumb_up</i>
+                    <span>Liked Videos</span>
+                </a>
+        
+            </div>
+
+        </div>
+
+        <!--Video section starts from here-->
+        <div class="content">
+            <div class="video">
+                <div class="thumbnail">
+                    <iframe src="https://www.youtube.com/embed/yA5wsEJFd9g" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <!--<img src="images/HA-Microverse.jpg" alt="microverse">-->
+                </div>
+                <div class="details">
+                    <div class="author">
+                        <img src="images/collins.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h3>Web development | Microeverse Experience</h3>
+                        <a href="">Collins Musoko</a>
+                        <span>1.4M Views . 2 Weeks Ago</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
